@@ -8,7 +8,8 @@ import { HomeComponent } from './menus/home/home.component';
 import { ContactComponent } from './menus/contact/contact.component';
 import { AboutComponent } from './menus/about/about.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-import { AddressComponent } from './menus/contact/address/address.component'
+import { AddressComponent } from './menus/contact/address/address.component';
+import { ServiceItemComponent } from './menus/home/service-item/service-item.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AddressComponent } from './menus/contact/address/address.component'
     HomeComponent,
     ContactComponent,
     AboutComponent,
-    AddressComponent
+    AddressComponent,
+    ServiceItemComponent
   ],
   imports: [
     BrowserModule,

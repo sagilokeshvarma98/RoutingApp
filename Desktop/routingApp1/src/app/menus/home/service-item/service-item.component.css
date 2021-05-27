@@ -1,0 +1,41 @@
+.mainDiv{
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    position: relative;
+}
+
+.mainDiv .imageDiv{
+    height: 100%;
+    width: 100%;
+}
+
+.mainDiv .imageDiv img{
+    height: 100%;
+    width: 100%;
+}
+
+.textDiv{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.textDiv h4{
+    padding: 10px;
+}
+
+.textDiv p{
+    padding: 10px;
+    color: rgb(120, 201, 96);
+}
+
+.textDiv:hover{
+    color: rgb(149, 199, 55);
+    height: 250px;
+    width: 350px;
+}
