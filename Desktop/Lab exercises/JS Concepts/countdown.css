@@ -1,0 +1,30 @@
+#countBox{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 92px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+#countBox .countDownBox{
+    padding-right: 20px;
+    float: left;
+}
+
+#countBox .countDownBox:nth-of-type(1), #countBox .countDownBox:nth-of-type(2){
+    border-right: 1px solid black;
+}
+
+#hours, #minutes, #seconds{
+    text-shadow: 3px 3px 7px yellow ;
+    font-size: 80px;
+    padding-left: 30px;
+}
+
+
+img{
+    margin-left: 38%;
+    margin-top: 20px;
+}

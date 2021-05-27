@@ -1,0 +1,152 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div1{
+    background-color: rgb(70, 70, 238);
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 80px;
+    padding: 0;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+
+  li #righttext{
+    margin-top: 10px;
+    padding-right: 20px;
+    float: right;
+  }
+
+
+  #righttext{
+      color: white;
+      padding: 20px;
+  }
+
+  #liparent{
+      padding: 15px;
+  }
+
+  #liparent .right1{
+      padding-left: 300px;
+  }
+
+  #liparent .left1{
+    padding-left: 100px;
+}
+
+#mainimg{
+    height: 300px;
+    width:100%;
+    z-index: 3;
+}
+
+#arrowleft{
+    margin-top: 100px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+#arrowright{
+    padding-left: 95%;
+    margin-top: 100px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.transparent-div{
+    margin-left: 65%;
+    margin-top: 15%;
+    position: absolute;
+    background-color: rgba(65, 56, 56, 0.459);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.transparent-div p{
+    color: white;
+    font-size: 12px;
+}
+
+#div-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    height: 250px;
+}
+
+#div2{
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+
+
+#linkimage{
+    height: 50px;
+    width: 50px;
+}
+
+button{
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: rgb(4, 146, 240);
+    border-radius: 5px ;
+    padding: 5px;
+}
+
+#final-div{
+    background-color: rgb(18, 131, 175);
+    height: 200px;
+}
+
+.column{
+    width: 33.33%;
+    float: left;
+}
+
+#last-div{
+    height: 30px;
+    background-color: rgb(4, 61, 165);
+}
+
+.italic1{
+    padding-left: 50px;
+}
+
+.italic2{
+    padding-left: 10px;
+}
+
+.italic1,.italic2{
+    color: white;
+}
+
+.italic3{
+    float: right;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.italic3 b{
+    margin-right: 10px;
+}
