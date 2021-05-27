@@ -1,0 +1,49 @@
+<div class="formDiv">
+    <form action="">
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td>
+                        <h5>First name</h5>
+                        <input type="text" [(ngModel)]="fname" name="fname" class="form-control" placeholder="Enter your first name">
+                    </td>
+                    <td>
+                        <h5>Last Name</h5>
+                        <input type="text" [(ngModel)]="lname" name="lname"  class="form-control" placeholder="Enter your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Email Address</h5>
+                        <input type="email" [(ngModel)]="email" name="email" class="form-control" placeholder="Enter your email">
+                    </td>
+                    <td>
+                        <h5>Phone Number</h5>
+                        <input type="text" [(ngModel)]="phnNo" name="phn" class="form-control" placeholder="Enter your phone Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Enter company name</h5>
+                        <input type="text" [(ngModel)]="cmpName" name="cmp"  class="form-control" placeholder="Enter your company name">
+                    </td>
+                    <td>
+                        <h5>Address</h5>
+                        <textarea class="form-control" [(ngModel)]="address" name="address" rows="3" placeholder="Enter your full address"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <div class="buttonDiv">
+        <div *ngIf="hide" class="alert alert-success">
+            Data added Successfully
+        </div>
+        <div *ngIf="errors.length>0">
+            <ul id="errDiv" *ngFor="let ele of errors">
+                <li class="text text-light">{{ele}}</li>
+            </ul>
+        </div>
+        <button class="btn btn-success" (click)="letsSenddata()">Enquiry</button>
+    </div>
+</div>

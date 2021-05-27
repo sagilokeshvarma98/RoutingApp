@@ -10,7 +10,9 @@ import { AboutComponent } from './menus/about/about.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { AddressComponent } from './menus/contact/address/address.component';
 import { ServiceItemComponent } from './menus/home/service-item/service-item.component';
-import { DetailsComponent } from './menus/home/details/details.component'
+import { DetailsComponent } from './menus/home/details/details.component';
+import { FormComponent } from './menus/home/form/form.component'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { DetailsComponent } from './menus/home/details/details.component'
     AboutComponent,
     AddressComponent,
     ServiceItemComponent,
-    DetailsComponent
+    DetailsComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
