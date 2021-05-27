@@ -11,7 +11,6 @@ export class AddressComponent implements OnInit {
   constructor() { }
   @Input() address:any
   ngOnInit(): void {
-    console.log("this is address ",this.address);
   }
 
 }

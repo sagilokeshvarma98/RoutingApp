@@ -35,6 +35,7 @@
 }
 
 .textDiv:hover{
+    background-color: black;
     color: rgb(149, 199, 55);
     height: 250px;
     width: 350px;

@@ -13,11 +13,9 @@ export class ServiceItemComponent implements OnInit {
   hide:boolean=true
 
   ngOnInit(): void {
-    console.log("data is",this.Data);
   }
 
   expand(){
-    console.log("hello");
     this.hide = !this.hide
   }
 

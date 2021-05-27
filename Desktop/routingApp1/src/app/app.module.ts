@@ -9,7 +9,8 @@ import { ContactComponent } from './menus/contact/contact.component';
 import { AboutComponent } from './menus/about/about.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { AddressComponent } from './menus/contact/address/address.component';
-import { ServiceItemComponent } from './menus/home/service-item/service-item.component'
+import { ServiceItemComponent } from './menus/home/service-item/service-item.component';
+import { DetailsComponent } from './menus/home/details/details.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ServiceItemComponent } from './menus/home/service-item/service-item.com
     ContactComponent,
     AboutComponent,
     AddressComponent,
-    ServiceItemComponent
+    ServiceItemComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

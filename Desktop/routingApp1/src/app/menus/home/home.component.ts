@@ -16,7 +16,6 @@ export class HomeComponent implements OnInit {
     this.hs.getDataFromUrl().subscribe(
       (data)=>{
         this.service_item = data
-        console.log(this.service_item);
       },
       ()=>this.service_item=[])
       

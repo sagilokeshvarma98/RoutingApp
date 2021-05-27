@@ -1,12 +1,14 @@
-<div class="mainDiv">
-    <div class="imageDiv">
-        <img src="http://localhost:8090/{{Data.image}}" alt="">
-        <div *ngIf="hide" (mouseover)="expand()" class="textDiv">
-          <h4>{{Data.title}}</h4>
-        </div>
-        <div *ngIf="!hide" (mouseleave)="expand()"  class="textDiv">
-            <h4 >{{Data.title}}</h4>
-            <p >{{Data.description}}</p>
+<a routerLink="home/{{Data.id}}">
+    <div class="mainDiv">
+        <div class="imageDiv">
+            <img src="http://localhost:8090/{{Data.image}}" alt="">
+            <div *ngIf="hide" (mouseover)="expand()" class="textDiv">
+              <h4>{{Data.title}}</h4>
+            </div>
+            <div *ngIf="!hide" (mouseleave)="expand()"  class="textDiv">
+                <h4 >{{Data.title}}</h4>
+                <p >{{Data.description}}</p>
+            </div>
         </div>
     </div>
-</div>
+</a>
