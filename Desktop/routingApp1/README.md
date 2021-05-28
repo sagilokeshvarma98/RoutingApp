@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
+## Topics learnt
+
+1. Services.
+2. Observables and it's subscription.
+3. Angular app files and their uses.
+4. HttpClientModule
+5. Routing(Activated Route)
+
+## Content of this app.
+
+1. First created navbar component in common folder.
+2. Created three components(home, contact and about) inside menus folder
+3. Used routing through components.(*"routerLink" and "<router-outlet>")
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
